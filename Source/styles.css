@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.boden-toggle {
+  position: relative;
+  width: 60px;
+  margin: 40px auto;
+}
+.boden-toggle .well {
+  display: block;
+  background: #eee;
+  height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.boden-toggle .toggle {
+  opacity: 0;
+  border: 0;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+}
+.boden-toggle .toggle ~ .emoji:before {
+  content: "🇺🇸";
+  position: absolute;
+  left: 0;
+  top: -15px;
+  font-size: 40px;
+  transition: 0.2s;
+}
+.boden-toggle .toggle:checked ~ .emoji:before {
+  left: 100%;
+  margin-left: -1em;
+}
+.boden-toggle .toggle ~ label {
+  white-space: nowrap;
+}
+.boden-toggle .toggle ~ label:before {
+  position: absolute;
+  right: 100%;
+  margin-right: 5px;
+  top: 0;
+}
+.boden-toggle .toggle ~ label:after {
+  position: absolute;
+  left: 100%;
+  margin-left: 5px;
+  top: 0;
+}
+
+.ice-cream .toggle ~ .emoji:before {
+  content: "🇺🇸";
+}
+.ice-cream .toggle:checked ~ .emoji:before {
+  content: "🍦";
+}
+
+/*# sourceMappingURL=styles.css.map */
