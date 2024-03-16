@@ -15,3 +15,8 @@ Installation
 ------------
 
 In Chrome, choose Window > Extensions.  Drag `Bodenizer.crx` into the page that appears.
+
+Donate
+------------
+
+Did you laugh? Send $BODEN or $SOL to `9RbtB9PFK97AcuDjcY4A5sZQUank4VKQoRFsuP1umWdJ`.
